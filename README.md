@@ -116,5 +116,5 @@ Technical Notes
 * The DTD reference is optional. When specified, our server will use the DTD to validate the XML and reject it if invalid (even if our lower level systems could still manage to interpret it).
 * The order of XML elements is irrelevant once the XML makes its way through the DTD-based validation (or if you simply omit the DTD reference).
 * The format of the acknowledgment XML sent in the body of the HTTP response will evolve. We will strive never to remove or alter existing elements-- and indeed have not to date-- but we have and will continue to add new elements.
-* We won't act on a shipment unless it's fully processed, which requires you to send `FULL` in the `Process` element (see also [ProcessFlags.md](ProcessFlags.md).
+* We won't act on a shipment unless it's fully processed, which requires you to send `FULL` in the `Process` element (see also [ProcessFlags.md](ProcessFlags.md)).
 * You can only modify shipments until they are fully processed. You cannot cancel nor can you edit a shipment once it has been fully processed.
