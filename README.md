@@ -62,7 +62,7 @@ If you have sample XML you wish to test without sending it through your system a
 
 ### Clarity Addresses
 
-Our customers often use our Clarity web application to manually enter shipment requests and track shipments. Each system, test and production, has a connected Clarity web application which can be used to review your EDI submissions.
+Our customers often use our Clarity web application to manually enter shipment requests and track shipments. Each system, test and production, has a connected Clarity web application which can be used to review your EDI submissions. It can also be used to adjust your credentials (username and password).
 
 * Test: [http://demo.MFSClarity.com/Clarity/](http://demo.MFSClarity.com/Clarity/)
 * Production: [http://www.MFSClarity.com/Clarity/](http://www.MFSClarity.com/Clarity/)
