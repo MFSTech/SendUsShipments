@@ -24,13 +24,13 @@
 
 		<SecurityCode>1234</SecurityCode>
 
-		<BOLDRLink>http://www.Manna.com/Clarity/Reports/BOLDR.asp?BOL=H2580701&amp;SecCode=4184</BOLDRLink>
+		<BOLDRLink>http://www.MFSClarity.com/Clarity/Reports/BOLDR.asp?BOL=H2580701&amp;SecCode=4184</BOLDRLink>
 
-		<LabelLink>http://www.Manna.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184</LabelLink>
+		<LabelLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184</LabelLink>
 
-		<LabelPerPageLink>http://www.Manna.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184&amp;Format=OnePerPage</LabelPerPageLink>
+		<LabelPerPageLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184&amp;Format=OnePerPage</LabelPerPageLink>
 
-		<LabelPDFLink>http://www.Manna.com/View/LabelPrinting/pdflabel.aspx?tran=2580701&amp;seccode=4184&amp;Color=1</LabelPDFLink>
+		<LabelPDFLink>http://www.MFSClarity.com/View/LabelPrinting/pdflabel.aspx?tran=2580701&amp;seccode=4184&amp;Color=1</LabelPDFLink>
 
 		<DeliveryAgent>
 			<AgentID>SampleID</AgentID>

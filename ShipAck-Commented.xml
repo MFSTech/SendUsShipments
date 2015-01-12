@@ -101,28 +101,28 @@
 				This is the security code for the shipment. It is required to access some shipment information via the web.
 			-->
 
-		<BOLDRLink>http://www.Manna.com/Clarity/Reports/BOLDR.asp?BOL=H2580701&amp;SecCode=4184</BOLDRLink>
+		<BOLDRLink>http://www.MFSClarity.com/Clarity/Reports/BOLDR.asp?BOL=H2580701&amp;SecCode=4184</BOLDRLink>
 
 			<!--
 				This is a URL for the delivery receipt document for the shipment.
 				Note that the URL is properly XML-encoded.
 			-->
 
-		<LabelLink>http://www.Manna.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184</LabelLink>
+		<LabelLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184</LabelLink>
 
 			<!--
 				This is a URL for a web page designed to be printed on adhesive label paper with a perforation across the middle. A label is produced for each piece on the shipment, with two labels produced per page.
 				Note that the URL is properly XML-encoded.
 			-->
 
-		<LabelPerPageLink>http://www.Manna.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184&amp;Format=OnePerPage</LabelPerPageLink>
+		<LabelPerPageLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184&amp;Format=OnePerPage</LabelPerPageLink>
 
 			<!--
 				This is a URL for a web page designed to be printed on adhesive label paper with a perforation across the middle. A label is produced for each piece on the shipment, with one label per page.
 				Note that the URL is properly XML-encoded.
 			-->
 
-		<LabelPDFLink>http://www.Manna.com/View/LabelPrinting/pdflabel.aspx?tran=2580701&amp;seccode=4184&amp;Color=1</LabelPDFLink>
+		<LabelPDFLink>http://www.MFSClarity.com/View/LabelPrinting/pdflabel.aspx?tran=2580701&amp;seccode=4184&amp;Color=1</LabelPDFLink>
 
 			<!--
 				This is a URL for a web page which produces a PDF document sized approximately 4 by 6 inches. It is designed to be printed on a 4 by 6 inch adhesive label produced by common thermal label printers.
