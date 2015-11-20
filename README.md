@@ -25,7 +25,7 @@ Note that the XML spec presumes that you will use certain codes for service requ
 
 We will update the XML system from time to time but the goal is to maintain as much backward compatibility as possible.
 
-If you experience problems using our XML system you contact our Help Desk at 651-994-7535 or email Support@MFSCorporate.com.
+If you experience problems using our XML system you contact our Help Desk at 651-994-7535 or email EDI@MFSCorporate.com.
 
 Endpoint Addresses
 ------------------
