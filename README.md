@@ -6,7 +6,7 @@ EDI (API) Documentation for the Standard, XML-Based, Customer Shipment HTTP Endp
 Overview
 --------
 
-Manna Freight Systems, Inc. has in place an electronic data transmission system capable of accepting and responding to shipment requests in near real time. It receives data in XML format using the same communication technology as web pages. It is flexible, extensible, human-readable, easy to use through firewalls, and can be initiated on-demand rather than merely at specified intervals.
+Pilot Freight Systems has in place an electronic data transmission system capable of accepting and responding to shipment requests in near real time. It receives data in XML format using the same communication technology as web pages. It is flexible, extensible, human-readable, easy to use through firewalls, and can be initiated on-demand rather than merely at specified intervals.
 
 This is intended for our customers to send us the information required for us move product for them. We call this movement a shipment. The basic requirements for a shipment are the origin, destination, speed, level of service, and some information about what we are moving (i.e. the pieces).
 
