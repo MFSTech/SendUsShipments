@@ -33,8 +33,8 @@
 				This field may be used to specify a tracking number unique to this shipment.
 				It will be returned with all communication about this shipment
 					(including in response to this initial submission).
-				It cannot currently be used for any tracking other than these electronic
-					transmissions.
+				With special configuration, it can also be used to populate the
+					Sales Order (SO) number, which appears on various documents.
 			-->
 
 		<CustID>ACMEComp</CustID>
@@ -131,17 +131,16 @@
 			-->
 
 		<PONum>CustPONum</PONum>
-		<BOLNum>CustBOLNum</BOLNum>
 		<RMANum>CustRMANum</RMANum>
 
 			<!-- 
 				These control numbers can be used to track a shipment on our web site
 					or with our operations staff.
-				Generally,
-					PONum is used for the customer's purchase order,
-					BOLNum is used for a bill of lading,
-					and RMANum is used for a returned merchandise authorization number.
-				However, they can generally be used for tracking number the client desires.
+				These numbers will also appear on various documents,
+					such as invoices and delivery receipts.
+				Often, PONum is used for the customer's Purchase Order number
+					and RMANum is used for a Returned Merchandise Authorization number.
+				However, customers are welcome to use the numbers for other purposes.
 			-->
 
 		<SpecInst>Please treat this carefully. It's very important to me. :&gt;</SpecInst>
