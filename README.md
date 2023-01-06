@@ -103,7 +103,7 @@ Helpful Hints
 * If you get a 202 status code, you don't know whether you have really been successful.
 * You probably want to send `NOW` in the `Process` element to engage synchronous processing and avoid getting a 202 status code.
 * Even when you don't get a 200 or 202 status code, you should still mine the response for the XML, as it will usually contain information in the ParseErrors section which explain what went wrong.
-* If you navigate directly to the endpoint URLs, you will receive an XML response which says, among other things, "XML document must have a top level element.". That is because you have not POSTed any XML.
+* If you navigate directly to the endpoint URLs with a browser, you will receive an XML response which says, among other things, "XML document must have a top level element.". That is because you have not POSTed any XML.
 * You cannot pass the endpoint your XML in a named parameter as you would with a normal web form. (You can pass the XML as a parameter named XML to the "feeder" pages, but that is intended only for testing and is not supported for automated use.)
 * Having trouble getting a success out of our system? See if it's your transmission mechanism or the XML itself by posting the XML into our "feeder" page (see above).
 * The sample files won't necessarily process without error. For example, if you put `NOW` into the `Process` element of the sample, you will get an error because `FULL` is not specified though the `ScheduleDate` element is populated. If you resolve that issue, you will often find other errors, such as the control number type "CustomControlNumber" not existing. The sample is designed to show a variety of features of the XML format; it is not designed to be a simple, successful transmission.
